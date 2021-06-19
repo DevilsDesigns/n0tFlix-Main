@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
-      "Jellyfin.Common/10.6.0": {
+      "Jellyfin.Common/10.7.0": {
         "type": "package",
         "dependencies": {
           "Jellyfin.Model": "10.6.0",
@@ -20,8 +20,8 @@
       "Jellyfin.Controller/10.6.0": {
         "type": "package",
         "dependencies": {
-          "Jellyfin.Common": "10.6.0",
-          "Jellyfin.Model": "10.6.0",
+          "Jellyfin.Common": "10.7.0",
+          "Jellyfin.Model": "10.7.0",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.6",
           "Microsoft.Extensions.Configuration.Binder": "3.1.6"
         },
@@ -32,7 +32,7 @@
           "lib/netstandard2.1/MediaBrowser.Controller.dll": {}
         }
       },
-      "Jellyfin.Data/10.6.0": {
+      "Jellyfin.Data/10.7.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "3.1.6",
@@ -45,7 +45,7 @@
           "lib/netstandard2.1/Jellyfin.Data.dll": {}
         }
       },
-      "Jellyfin.Model/10.6.0": {
+      "Jellyfin.Model/10.7.0": {
         "type": "package",
         "dependencies": {
           "Jellyfin.Data": "10.6.0",
@@ -628,40 +628,40 @@
     }
   },
   "libraries": {
-    "Jellyfin.Common/10.6.0": {
+    "Jellyfin.Common/10.7.0": {
       "sha512": "tfCueM59G2X+EooC9KdcK/ENBlTqv53oktkwAVhfwfmAC6mjvfKuA6xtmiwmYrVrvEAA8GdHRd/3PJQxDmG/1Q==",
       "type": "package",
-      "path": "jellyfin.common/10.6.0",
+      "path": "jellyfin.common/10.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "jellyfin.common.10.6.0.nupkg.sha512",
+        "jellyfin.common.10.7.0.nupkg.sha512",
         "jellyfin.common.nuspec",
         "lib/netstandard2.1/MediaBrowser.Common.dll",
         "lib/netstandard2.1/MediaBrowser.Common.xml"
       ]
     },
-    "Jellyfin.Controller/10.6.0": {
+    "Jellyfin.Controller/10.7.0": {
       "sha512": "2GDFL0a3HY12dzQogsV/AoNLQ0lFUYZzLcbVWL/k/Zn8Et1sPOPiRCYnjsK7gzsvfYkLVwQkxhClzizZ9LQ5VA==",
       "type": "package",
-      "path": "jellyfin.controller/10.6.0",
+      "path": "jellyfin.controller/10.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "jellyfin.controller.10.6.0.nupkg.sha512",
+        "jellyfin.controller.10.7.0.nupkg.sha512",
         "jellyfin.controller.nuspec",
         "lib/netstandard2.1/MediaBrowser.Controller.dll",
         "lib/netstandard2.1/MediaBrowser.Controller.xml"
       ]
     },
-    "Jellyfin.Data/10.6.0": {
+    "Jellyfin.Data/10.7.0": {
       "sha512": "5WHNqgteBp8grvtij/yHSckc1GpjlYHb1FekEogwT7+NWRr5HC+D0Y1urmw+8hNuqBdxh576xbULjAd1L/gbew==",
       "type": "package",
-      "path": "jellyfin.data/10.6.0",
+      "path": "jellyfin.data/10.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "jellyfin.data.10.6.0.nupkg.sha512",
+        "jellyfin.data.10.7.0.nupkg.sha512",
         "jellyfin.data.nuspec",
         "lib/netstandard2.0/Jellyfin.Data.dll",
         "lib/netstandard2.0/Jellyfin.Data.xml",
@@ -669,14 +669,14 @@
         "lib/netstandard2.1/Jellyfin.Data.xml"
       ]
     },
-    "Jellyfin.Model/10.6.0": {
+    "Jellyfin.Model/10.7.0": {
       "sha512": "9yLxFqfgbEN5S+IBsvHfvKpLtPTp1gpscklUgcRT4yJZbx6oISiitFLHuh30C3I+++rO6EjHCAT0YuRSDMA7xA==",
       "type": "package",
-      "path": "jellyfin.model/10.6.0",
+      "path": "jellyfin.model/10.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "jellyfin.model.10.6.0.nupkg.sha512",
+        "jellyfin.model.10.7.0.nupkg.sha512",
         "jellyfin.model.nuspec",
         "lib/netstandard2.0/MediaBrowser.Model.dll",
         "lib/netstandard2.0/MediaBrowser.Model.xml",
@@ -1742,7 +1742,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Jellyfin.Controller >= 10.6.0",
+      "Jellyfin.Controller >= 10.7.0",
       "Newtonsoft.Json >= 12.0.3"
     ]
   },
@@ -1790,7 +1790,7 @@
         "dependencies": {
           "Jellyfin.Controller": {
             "target": "Package",
-            "version": "[10.6.0, )"
+            "version": "[10.7.0, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
